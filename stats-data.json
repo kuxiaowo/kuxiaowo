@@ -1,10 +1,10 @@
 {
   "username": "kuxiaowo",
-  "updated_at": "2026-11-02T19:39:55+08:00",
+  "updated_at": "2026-11-02T19:43:43+08:00",
   "joined": "2025-09-03",
   "followers": 19,
-  "public_repositories": 29,
-  "nonfork_repositories": 17,
+  "public_repositories": 30,
+  "nonfork_repositories": 18,
   "total_stars": 199,
   "nonfork_repository_stars": {
     "2022-HiMCM": 4,
@@ -17,6 +17,7 @@
     "IC2-Nuclear-Reactor-Optimizer": 6,
     "KSA-Babel": 0,
     "KSA-CHINESE": 1,
+    "kuxiaowo": 0,
     "Local-Media-AI-Library": 6,
     "MB-data-reader": 0,
     "NetHub-Accounts": 1,
@@ -41,6 +42,7 @@
     "IC2-Nuclear-Reactor-Optimizer": 6,
     "KSA-Babel": 0,
     "KSA-CHINESE": 1,
+    "kuxiaowo": 0,
     "Local-Media-AI-Library": 6,
     "localsend": 0,
     "MangeBac-Dashboard": 4,
@@ -57,7 +59,7 @@
     "wechat-asr-bridge": 57
   },
   "language_bytes": {
-    "Python": 6615421,
+    "Python": 6637067,
     "HTML": 2901213,
     "TeX": 1789885,
     "JavaScript": 902873,
@@ -95,13 +97,13 @@
     "NSIS": "#8b949e"
   },
   "contributions": {
-    "total": 1791,
+    "total": 1796,
     "start": "2025-11-02",
     "end": "2026-11-02",
     "current_streak": 4,
     "longest_streak": 38,
     "highest_day": 142,
-    "average_day": 4.89344262295082,
+    "average_day": 4.907103825136612,
     "days": [
       {
         "date": "2025-11-02",
@@ -1931,7 +1933,7 @@
       {
         "date": "2026-11-02",
         "level": 1,
-        "count": 1
+        "count": 6
       }
     ]
   },
