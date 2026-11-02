@@ -1,0 +1,46 @@
+name: Refresh profile statistics
+
+on:
+  schedule:
+    - cron: '17 1 * * *' # 09:17 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/refresh-stats.yml
+      - scripts/**
+      - environment.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - name: Check out main
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Conda
+        uses: conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167 # v3
+        with:
+          environment-file: environment.yml
+          activate-environment: github-profile
+          auto-activate-base: false
+      - name: Refresh, validate, and publish through a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/publish_stats.py

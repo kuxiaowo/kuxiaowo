@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm kuxiaowo.</title>
+  <desc id="desc">Useful tools. Curious experiments. Orbital paths connect AI, web tools and game mods.</desc>
+  <rect width="880" height="220" rx="12" fill="#132033"/>
+  <g fill="none" stroke="#29415c" stroke-width="1.2">
+    <ellipse cx="722" cy="110" rx="124" ry="68" transform="rotate(-30 722 110)"/>
+    <ellipse cx="722" cy="110" rx="124" ry="68" transform="rotate(30 722 110)"/>
+    <circle cx="722" cy="110" r="95"/>
+  </g>
+  <path d="M594 114h91m74 0h88" stroke="#365675" stroke-width="1"/>
+  <circle cx="722" cy="110" r="32" fill="#1c3450" stroke="#74b2ee"/>
+  <path d="m712 100-10 10 10 10m20-20 10 10-10 10m-6-24-8 28" fill="none" stroke="#d6eaff" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="644" cy="51" r="6" fill="#f2b181"/>
+  <circle cx="804" cy="60" r="5" fill="#83bdf4"/>
+  <circle cx="759" cy="196" r="5" fill="#a6d1c1"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="40" y="103" fill="#f0f6fc" font-size="48" font-weight="700">Hi, I'm kuxiaowo.</text>
+    <text x="43" y="145" fill="#acc6df" font-size="23">Useful tools. Curious experiments.</text>
+  </g>
+  <path d="M43 177h40" stroke="#f2b181" stroke-width="3" stroke-linecap="round"/>
+</svg>

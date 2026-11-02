@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="210" viewBox="0 0 480 210" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm kuxiaowo.</title>
+  <desc id="desc">Useful tools. Curious experiments.</desc>
+  <rect width="480" height="210" rx="12" fill="#132033"/>
+  <g fill="none" stroke="#29415c">
+    <ellipse cx="425" cy="40" rx="90" ry="48" transform="rotate(-35 425 40)"/>
+    <circle cx="425" cy="40" r="73"/>
+  </g>
+  <circle cx="399" cy="108" r="5" fill="#f2b181"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="28" y="105" fill="#f0f6fc" font-size="39" font-weight="700">Hi, I'm kuxiaowo.</text>
+    <text x="29" y="145" fill="#acc6df" font-size="21">Useful tools. Curious experiments.</text>
+  </g>
+  <path d="M29 174h38" stroke="#f2b181" stroke-width="3" stroke-linecap="round"/>
+</svg>

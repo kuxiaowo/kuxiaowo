@@ -1,0 +1,5 @@
+name: github-profile
+channels:
+  - defaults
+dependencies:
+  - python=3.12
