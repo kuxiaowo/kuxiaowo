@@ -4,6 +4,7 @@ Runs only inside this repository's GitHub Actions workflow. A developing
 branch with unmerged work is never included in the automated update.
 """
 import json
+from datetime import datetime, timezone, timedelta
 import os
 from pathlib import Path
 import subprocess
@@ -12,6 +13,21 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 REPO = 'kuxiaowo/kuxiaowo'
 FILES = ['README.md', 'stats-data.json', 'assets/github-stats.svg', 'assets/github-stats-compact.svg']
+SHANGHAI = timezone(timedelta(hours=8))
+
+
+def should_skip_refresh(event, snapshot, now=None):
+    """Only scheduled runs may reuse a validated snapshot already on main."""
+    if event != 'schedule':
+        return False
+    now = now or datetime.now(SHANGHAI)
+    try:
+        updated = datetime.fromisoformat(snapshot['updated_at'])
+        if updated.tzinfo is None:
+            return False
+        return updated <= now and updated.astimezone(SHANGHAI).date() == now.astimezone(SHANGHAI).date()
+    except (KeyError, TypeError, ValueError):
+        return False
 
 
 def run(*args, capture=False):
@@ -33,6 +49,13 @@ def main():
         raise RuntimeError('developing has unmerged commits; merge or review that work before refreshing')
     run('git', 'checkout', '-B', 'developing', 'origin/developing')
     run('git', 'merge', '--ff-only', 'origin/main')
+    snapshot = json.loads((ROOT / 'stats-data.json').read_text(encoding='utf-8'))
+    if should_skip_refresh(os.environ.get('GITHUB_EVENT_NAME'), snapshot):
+        # Confirm the already-published data is valid before treating it as a
+        # successful daily snapshot. Do not generate data, commit, push or open PRs.
+        run(sys.executable, 'scripts/validate_stats.py')
+        print('A valid snapshot is already published for today (Asia/Shanghai); skipping scheduled refresh')
+        return
     run(sys.executable, 'scripts/update_stats.py')
     run(sys.executable, 'scripts/validate_stats.py')
     changed = set(run('git', 'diff', '--name-only', capture=True).splitlines())

@@ -1,9 +1,9 @@
 """Validate the generated snapshot before it can be committed or published."""
-from datetime import date, timedelta
 import json
 from pathlib import Path
 import re
 import xml.etree.ElementTree as ET
+from update_stats import validate_calendar_days
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -18,14 +18,11 @@ def validate():
     assert sum(data['language_bytes'].values()) > 0, 'Missing language data'
     calendar = data['contributions']
     days = calendar['days']
-    assert 365 <= len(days) <= 366, 'Incomplete calendar'
+    validate_calendar_days(days)
     assert days[0]['date'] == calendar['start'] and days[-1]['date'] == calendar['end']
     assert sum(d['count'] for d in days) == calendar['total'], 'Contribution sum mismatch'
     streak = best = 0
-    for i, day in enumerate(days):
-        assert day['count'] >= 0 and 0 <= day['level'] <= 4
-        if i:
-            assert date.fromisoformat(day['date']) - date.fromisoformat(days[i-1]['date']) == timedelta(days=1)
+    for day in days:
         streak = streak + 1 if day['count'] else 0
         best = max(best, streak)
     assert streak == calendar['current_streak'] and best == calendar['longest_streak'], 'Streak mismatch'

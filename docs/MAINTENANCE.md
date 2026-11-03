@@ -16,6 +16,7 @@ conda env create -f environment.yml
 conda activate github-profile
 python scripts/update_stats.py
 python scripts/validate_stats.py
+python -m unittest discover -s tests -v
 ```
 
 The refresh script needs the GitHub CLI authenticated for reading public data.
@@ -23,11 +24,18 @@ It does not push or create pull requests when run locally.
 
 ## Automatic refresh
 
-`Refresh profile statistics` runs daily at **09:17 Asia/Shanghai (01:17 UTC)**,
+`Refresh profile statistics` runs daily at **09:17 Asia/Shanghai (01:17 UTC)**
+with a **17:17 Asia/Shanghai (09:17 UTC)** backup,
 can be started manually from Actions, and runs when its code changes on `main`.
 GitHub can delay scheduled runs; public-repository schedules can also be disabled
 after extended repository inactivity. The date printed in the card is the last
 successful snapshot, not a promise of live data.
+
+Both scheduled runs first inspect the validated snapshot from the latest `main`.
+If its timestamp is already today in Asia/Shanghai, the run exits without
+generating data, committing, pushing, or opening a PR. Push and manual runs still
+refresh so fixes can be verified immediately. The unmerged-`developing` guard
+remains active even when a scheduled run would otherwise skip.
 
 The workflow uses a Conda environment and GitHub's short-lived `GITHUB_TOKEN`;
 no personal access token or extra secret is required. Repository settings permit
@@ -52,6 +60,10 @@ the branch check. No unrelated developing changes are automatically merged.
 - The contribution calendar comes from the anonymous public profile page,
   including anonymized contributions already visible there. Private repository
   names and contents are not queried or published.
+- GitHub's rolling calendar aligns to weeks and may contain 365–372 days.
+  The parser and snapshot validator share this bound and still require complete
+  counts, consecutive dates, and a sum matching the public page. Regression tests
+  include the 367-day public calendar captured on 2026-11-03.
 - Contributions include commits, issues, PRs, and reviews. Streaks cover only
   the displayed date range; the current streak ends on its final date.
 - The full public snapshot is recorded in `stats-data.json`.
