@@ -1,17 +1,17 @@
 {
   "username": "kuxiaowo",
-  "updated_at": "2026-11-02T19:43:43+08:00",
+  "updated_at": "2026-11-03T17:32:46+08:00",
   "joined": "2025-09-03",
   "followers": 19,
   "public_repositories": 30,
   "nonfork_repositories": 18,
-  "total_stars": 199,
+  "total_stars": 206,
   "nonfork_repository_stars": {
     "2022-HiMCM": 4,
     "2026-HiMCM": 1,
     "AC-Forza-Telemetry-Bridge": 2,
     "AI-News": 7,
-    "AIpet-Murasame": 79,
+    "AIpet-Murasame": 80,
     "CAS-NoiseMap-Web": 9,
     "Codex-CAS-Web": 1,
     "IC2-Nuclear-Reactor-Optimizer": 6,
@@ -24,14 +24,14 @@
     "NetHub-Campus-Wiki": 10,
     "TechX-Shude-Mood-Barometer": 5,
     "To-do-list": 10,
-    "wechat-asr-bridge": 57
+    "wechat-asr-bridge": 63
   },
   "repository_stars": {
     "2022-HiMCM": 4,
     "2026-HiMCM": 1,
     "AC-Forza-Telemetry-Bridge": 2,
     "AI-News": 7,
-    "AIpet-Murasame": 79,
+    "AIpet-Murasame": 80,
     "AIpet-Murasame-sensei-contrib": 1,
     "Borea": 0,
     "CAS-NoiseMap-Web": 9,
@@ -56,10 +56,10 @@
     "TechX-Shude-Mood-Barometer": 5,
     "To-do-list": 10,
     "uptime-kuma": 0,
-    "wechat-asr-bridge": 57
+    "wechat-asr-bridge": 63
   },
   "language_bytes": {
-    "Python": 6637067,
+    "Python": 6683000,
     "HTML": 2901213,
     "TeX": 1789885,
     "JavaScript": 902873,
@@ -69,7 +69,7 @@
     "PowerShell": 46094,
     "C++": 36038,
     "Shell": 33428,
-    "Lua": 11622,
+    "Lua": 13464,
     "Objective-C": 7429,
     "PLpgSQL": 1165,
     "Mako": 1063,
@@ -97,13 +97,13 @@
     "NSIS": "#8b949e"
   },
   "contributions": {
-    "total": 1796,
+    "total": 1806,
     "start": "2025-11-02",
-    "end": "2026-11-02",
-    "current_streak": 4,
+    "end": "2026-11-03",
+    "current_streak": 5,
     "longest_streak": 38,
     "highest_day": 142,
-    "average_day": 4.907103825136612,
+    "average_day": 4.920980926430517,
     "days": [
       {
         "date": "2025-11-02",
@@ -1932,6 +1932,11 @@
       },
       {
         "date": "2026-11-02",
+        "level": 1,
+        "count": 10
+      },
+      {
+        "date": "2026-11-03",
         "level": 1,
         "count": 6
       }
