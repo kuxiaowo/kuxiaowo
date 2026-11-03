@@ -29,6 +29,20 @@ QUERY = '''query { user(login:"kuxiaowo") {
  } } } }'''
 
 
+def validate_calendar_days(days):
+    # GitHub aligns the rolling contribution grid to whole weeks. Extra days
+    # are valid (including leap years); they must still form one complete span.
+    if not 365 <= len(days) <= 372:
+        raise ValueError('Expected 365-372 days in the week-aligned public calendar')
+    for day in days:
+        if not isinstance(day['count'], int) or day['count'] < 0 or not 0 <= day['level'] <= 4:
+            raise ValueError('Invalid public calendar count or level')
+        date.fromisoformat(day['date'])
+    for a, b in zip(days, days[1:]):
+        if date.fromisoformat(b['date']) - date.fromisoformat(a['date']) != timedelta(days=1):
+            raise ValueError('Nonconsecutive calendar dates')
+
+
 class PublicCalendar(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -61,11 +75,7 @@ class PublicCalendar(HTMLParser):
         if len(self.cells) != len(self.tips):
             raise ValueError('Missing public calendar counts')
         result = sorted([dict(cell, count=self.tips[key]) for key, cell in self.cells.items()], key=lambda d: d['date'])
-        if not 365 <= len(result) <= 366:
-            raise ValueError('Expected a complete rolling year of public calendar data')
-        for a, b in zip(result, result[1:]):
-            if date.fromisoformat(b['date']) - date.fromisoformat(a['date']) != timedelta(days=1):
-                raise ValueError('Nonconsecutive calendar dates')
+        validate_calendar_days(result)
         return result
 
 

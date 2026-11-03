@@ -3,12 +3,14 @@ name: Refresh profile statistics
 on:
   schedule:
     - cron: '17 1 * * *' # 09:17 Asia/Shanghai
+    - cron: '17 9 * * *' # 17:17 Asia/Shanghai backup; skips an already-refreshed day
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - .github/workflows/refresh-stats.yml
       - scripts/**
+      - tests/**
       - environment.yml
 
 permissions:
@@ -40,6 +42,8 @@ jobs:
           environment-file: environment.yml
           activate-environment: github-profile
           auto-activate-base: false
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v
       - name: Refresh, validate, and publish through a pull request
         env:
           GH_TOKEN: ${{ github.token }}
