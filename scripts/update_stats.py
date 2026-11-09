@@ -115,8 +115,18 @@ def collect(profile_json, calendar_html):
     counts = [day['count'] for day in days]
     total = sum(counts)
     shown = re.search(r'([\d,]+)\s+contributions\s+in the last year', calendar)
-    if not shown or int(shown[1].replace(',', '')) != total:
-        raise ValueError('Calendar sum does not match the public GitHub total')
+    if not shown:
+        raise ValueError('Missing public GitHub contribution total')
+    headline_total = int(shown[1].replace(',', ''))
+    if headline_total != total:
+        # The "last year" headline may cover a different range from the
+        # week-aligned calendar. The validated daily cells drive our chart.
+        print(
+            f'::warning::GitHub contribution headline ({headline_total}) differs from '
+            f'the public calendar sum ({total}) for '
+            f'{days[0]["date"]} through {days[-1]["date"]}; using validated daily counts.',
+            flush=True,
+        )
     run = longest = 0
     for count in counts:
         run = run + 1 if count else 0
