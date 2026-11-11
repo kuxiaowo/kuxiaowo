@@ -45,7 +45,7 @@ Tools I build and maintain, across a few different interests.
 | **[AC / ACC → Forza Bridge](https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge)** | Connects Assetto Corsa and ACC shared-memory telemetry to dashboards that understand the Forza Horizon Dash UDP format. | [★ 2](https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge/stargazers) |
 
 <!-- stats-date:start -->
-<sub>Star counts as of 2026-11-11; each count refers to the linked repository.</sub>
+<sub>Star counts as of 2026-11-12; each count refers to the linked repository.</sub>
 <!-- stats-date:end -->
 
 ## What connects these projects
