@@ -1,11 +1,11 @@
 {
   "username": "kuxiaowo",
-  "updated_at": "2026-11-19T02:02:30+08:00",
+  "updated_at": "2026-11-20T02:15:29+08:00",
   "joined": "2025-09-03",
   "followers": 20,
-  "public_repositories": 30,
-  "nonfork_repositories": 18,
-  "total_stars": 223,
+  "public_repositories": 33,
+  "nonfork_repositories": 20,
+  "total_stars": 225,
   "nonfork_repository_stars": {
     "2022-HiMCM": 4,
     "2026-IM2C": 1,
@@ -19,12 +19,14 @@
     "KSA-CHINESE": 1,
     "kuxiaowo": 0,
     "Local-Media-AI-Library": 6,
+    "MapChanger-Unity6": 0,
     "MB-data-reader": 0,
     "NetHub-Accounts": 1,
     "NetHub-Campus-Wiki": 10,
     "TechX-Shude-Mood-Barometer": 5,
     "To-do-list": 10,
-    "wechat-asr-bridge": 79
+    "VanillaMapMod-ZH": 0,
+    "wechat-asr-bridge": 81
   },
   "repository_stars": {
     "2022-HiMCM": 4,
@@ -46,6 +48,8 @@
     "Local-Media-AI-Library": 6,
     "localsend": 0,
     "MangeBac-Dashboard": 4,
+    "MapChanger": 0,
+    "MapChanger-Unity6": 0,
     "MB-data-reader": 0,
     "NetHub-Accounts": 1,
     "NetHub-Campus-Wiki": 10,
@@ -56,17 +60,18 @@
     "TechX-Shude-Mood-Barometer": 5,
     "To-do-list": 10,
     "uptime-kuma": 0,
-    "wechat-asr-bridge": 79
+    "VanillaMapMod-ZH": 0,
+    "wechat-asr-bridge": 81
   },
   "language_bytes": {
-    "Python": 6690293,
-    "HTML": 2901213,
+    "Python": 6693295,
+    "HTML": 2901773,
     "TeX": 1789885,
+    "C#": 1009522,
     "JavaScript": 902873,
-    "C#": 817871,
     "TypeScript": 351876,
     "CSS": 294654,
-    "PowerShell": 47139,
+    "PowerShell": 54687,
     "C++": 36038,
     "Shell": 33428,
     "Lua": 13464,
@@ -97,13 +102,13 @@
     "NSIS": "#8b949e"
   },
   "contributions": {
-    "total": 1914,
+    "total": 1934,
     "start": "2025-11-16",
-    "end": "2026-11-18",
-    "current_streak": 1,
+    "end": "2026-11-19",
+    "current_streak": 2,
     "longest_streak": 38,
     "highest_day": 142,
-    "average_day": 5.201086956521739,
+    "average_day": 5.2411924119241196,
     "days": [
       {
         "date": "2025-11-16",
@@ -1944,6 +1949,11 @@
         "date": "2026-11-18",
         "level": 1,
         "count": 8
+      },
+      {
+        "date": "2026-11-19",
+        "level": 2,
+        "count": 20
       }
     ]
   },
