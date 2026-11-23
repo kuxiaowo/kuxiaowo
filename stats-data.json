@@ -1,17 +1,17 @@
 {
   "username": "kuxiaowo",
-  "updated_at": "2026-11-23T01:08:13+08:00",
+  "updated_at": "2026-11-24T05:18:35+08:00",
   "joined": "2025-09-03",
   "followers": 20,
   "public_repositories": 33,
   "nonfork_repositories": 20,
-  "total_stars": 228,
+  "total_stars": 229,
   "nonfork_repository_stars": {
     "2022-HiMCM": 4,
     "2026-IM2C": 1,
     "AC-Forza-Telemetry-Bridge": 2,
     "AI-News": 7,
-    "AIpet-Murasame": 80,
+    "AIpet-Murasame": 81,
     "CAS-NoiseMap-Web": 9,
     "Codex-CAS-Web": 1,
     "IC2-Nuclear-Reactor-Optimizer": 6,
@@ -33,7 +33,7 @@
     "2026-IM2C": 1,
     "AC-Forza-Telemetry-Bridge": 2,
     "AI-News": 7,
-    "AIpet-Murasame": 80,
+    "AIpet-Murasame": 81,
     "AIpet-Murasame-sensei-contrib": 1,
     "Borea": 0,
     "CAS-NoiseMap-Web": 9,
@@ -64,13 +64,13 @@
     "wechat-asr-bridge": 84
   },
   "language_bytes": {
-    "Python": 6710492,
-    "HTML": 2921835,
+    "Python": 6732780,
+    "HTML": 2916774,
     "TeX": 1789885,
     "C#": 1009522,
-    "JavaScript": 950527,
+    "JavaScript": 958989,
     "TypeScript": 351876,
-    "CSS": 331799,
+    "CSS": 335932,
     "PowerShell": 54687,
     "C++": 36038,
     "Shell": 33428,
@@ -102,13 +102,13 @@
     "NSIS": "#8b949e"
   },
   "contributions": {
-    "total": 1966,
+    "total": 1987,
     "start": "2025-11-23",
-    "end": "2026-11-22",
-    "current_streak": 5,
+    "end": "2026-11-23",
+    "current_streak": 6,
     "longest_streak": 38,
     "highest_day": 142,
-    "average_day": 5.3863013698630136,
+    "average_day": 5.4289617486338795,
     "days": [
       {
         "date": "2025-11-23",
@@ -1934,6 +1934,11 @@
         "date": "2026-11-22",
         "level": 2,
         "count": 29
+      },
+      {
+        "date": "2026-11-23",
+        "level": 2,
+        "count": 21
       }
     ]
   },
