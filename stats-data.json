@@ -1,11 +1,11 @@
 {
   "username": "kuxiaowo",
-  "updated_at": "2026-11-27T02:59:23+08:00",
+  "updated_at": "2026-11-28T02:56:18+08:00",
   "joined": "2025-09-03",
   "followers": 20,
   "public_repositories": 33,
   "nonfork_repositories": 20,
-  "total_stars": 231,
+  "total_stars": 232,
   "nonfork_repository_stars": {
     "2022-HiMCM": 4,
     "2026-IM2C": 1,
@@ -16,7 +16,7 @@
     "Codex-CAS-Web": 1,
     "IC2-Nuclear-Reactor-Optimizer": 6,
     "KSA-Babel": 1,
-    "KSA-CHINESE": 1,
+    "KSA-CHINESE": 2,
     "kuxiaowo": 0,
     "Local-Media-AI-Library": 6,
     "MapChanger-Unity6": 0,
@@ -43,7 +43,7 @@
     "czkawka": 0,
     "IC2-Nuclear-Reactor-Optimizer": 6,
     "KSA-Babel": 1,
-    "KSA-CHINESE": 1,
+    "KSA-CHINESE": 2,
     "kuxiaowo": 0,
     "Local-Media-AI-Library": 6,
     "localsend": 0,
@@ -104,11 +104,11 @@
   "contributions": {
     "total": 1988,
     "start": "2025-11-23",
-    "end": "2026-11-26",
-    "current_streak": 1,
+    "end": "2026-11-27",
+    "current_streak": 0,
     "longest_streak": 38,
     "highest_day": 142,
-    "average_day": 5.387533875338754,
+    "average_day": 5.372972972972973,
     "days": [
       {
         "date": "2025-11-23",
@@ -1954,6 +1954,11 @@
         "date": "2026-11-26",
         "level": 1,
         "count": 1
+      },
+      {
+        "date": "2026-11-27",
+        "level": 0,
+        "count": 0
       }
     ]
   },
