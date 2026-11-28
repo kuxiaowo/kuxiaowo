@@ -1,56 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="960" viewBox="0 0 440 960" role="img" aria-labelledby="title desc">
 <title id="title">kuxiaowo GitHub statistics</title>
-<desc id="desc">232 stars across public non-fork repositories; 20 followers; 1988 contributions in the displayed year. Language share uses GitHub code bytes. Dated snapshot.</desc>
+<desc id="desc">233 stars across public non-fork repositories; 20 followers; 1998 contributions in the displayed year. Language share uses GitHub code bytes. Dated snapshot.</desc>
 <style>:root{--bg:#ffffff;--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--link:#0969da;--zero:#ebedf0}@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#919ba6;--line:#30363d;--link:#79b8ff;--zero:#d6ddd8}}text{font-family:Segoe UI,Arial,sans-serif;fill:var(--fg)}.muted{fill:var(--muted)}.accent{fill:var(--link)}.empty{fill:var(--zero)}</style>
 <rect width="440" height="960" fill="var(--bg)" rx="10"/>
 <text x="24" y="42" font-size="30" class="accent" font-weight="600" text-anchor="start">kuxiaowo</text>
 <text x="24" y="70" font-size="14" class="muted" font-weight="400" text-anchor="start">Joined Sep 2025 · 20 followers · 33 public repos</text>
-<text x="24" y="116" font-size="28" class="" font-weight="600" text-anchor="start">★ 232</text>
+<text x="24" y="116" font-size="28" class="" font-weight="600" text-anchor="start">★ 233</text>
 <text x="24" y="139" font-size="12" class="muted" font-weight="400" text-anchor="start">Stars · 20 public non-fork repos</text>
-<text x="244" y="116" font-size="28" class="" font-weight="600" text-anchor="start">1,988</text>
+<text x="244" y="116" font-size="28" class="" font-weight="600" text-anchor="start">1,998</text>
 <text x="244" y="139" font-size="12" class="muted" font-weight="400" text-anchor="start">Contributions · last year</text>
 <path d="M24 160H416" stroke="var(--line)"/>
 <text x="24" y="193" font-size="18" class="accent" font-weight="600" text-anchor="start">Most used languages · 17 detected</text>
 <text x="24" y="217" font-size="13" class="muted" font-weight="400" text-anchor="start">By code size in public non-fork repositories</text>
-<rect x="24.00" y="235" width="185.28" height="11" fill="#3572A5"><title>Python: 47.27%</title></rect>
-<rect x="209.28" y="235" width="80.27" height="11" fill="#e34c26"><title>HTML: 20.48%</title></rect>
-<rect x="289.55" y="235" width="49.26" height="11" fill="#3D6117"><title>TeX: 12.57%</title></rect>
-<rect x="338.80" y="235" width="27.78" height="11" fill="#7355dd"><title>C#: 7.09%</title></rect>
-<rect x="366.59" y="235" width="26.39" height="11" fill="#f1e05a"><title>JavaScript: 6.73%</title></rect>
-<rect x="392.98" y="235" width="9.68" height="11" fill="#3178c6"><title>TypeScript: 2.47%</title></rect>
-<rect x="402.66" y="235" width="13.34" height="11" fill="#8b949e"><title>Other: 3.40%</title></rect>
+<rect x="24.00" y="235" width="184.77" height="11" fill="#3572A5"><title>Python: 47.14%</title></rect>
+<rect x="208.77" y="235" width="80.05" height="11" fill="#e34c26"><title>HTML: 20.42%</title></rect>
+<rect x="288.82" y="235" width="49.12" height="11" fill="#3D6117"><title>TeX: 12.53%</title></rect>
+<rect x="337.94" y="235" width="28.78" height="11" fill="#7355dd"><title>C#: 7.34%</title></rect>
+<rect x="366.72" y="235" width="26.32" height="11" fill="#f1e05a"><title>JavaScript: 6.71%</title></rect>
+<rect x="393.04" y="235" width="9.66" height="11" fill="#3178c6"><title>TypeScript: 2.46%</title></rect>
+<rect x="402.70" y="235" width="13.30" height="11" fill="#8b949e"><title>Other: 3.39%</title></rect>
 <circle cx="29.0" cy="269" r="5" fill="#3572A5"/>
 <text x="43.0" y="275" font-size="15" class="" font-weight="400" text-anchor="start">Python</text>
-<text x="208.0" y="275" font-size="14" class="muted" font-weight="400" text-anchor="end">47.27%</text>
+<text x="208.0" y="275" font-size="14" class="muted" font-weight="400" text-anchor="end">47.14%</text>
 <circle cx="232.0" cy="269" r="5" fill="#e34c26"/>
 <text x="246.0" y="275" font-size="15" class="" font-weight="400" text-anchor="start">HTML</text>
-<text x="411.0" y="275" font-size="14" class="muted" font-weight="400" text-anchor="end">20.48%</text>
+<text x="411.0" y="275" font-size="14" class="muted" font-weight="400" text-anchor="end">20.42%</text>
 <circle cx="29.0" cy="298" r="5" fill="#3D6117"/>
 <text x="43.0" y="304" font-size="15" class="" font-weight="400" text-anchor="start">TeX</text>
-<text x="208.0" y="304" font-size="14" class="muted" font-weight="400" text-anchor="end">12.57%</text>
+<text x="208.0" y="304" font-size="14" class="muted" font-weight="400" text-anchor="end">12.53%</text>
 <circle cx="232.0" cy="298" r="5" fill="#7355dd"/>
 <text x="246.0" y="304" font-size="15" class="" font-weight="400" text-anchor="start">C#</text>
-<text x="411.0" y="304" font-size="14" class="muted" font-weight="400" text-anchor="end">7.09%</text>
+<text x="411.0" y="304" font-size="14" class="muted" font-weight="400" text-anchor="end">7.34%</text>
 <circle cx="29.0" cy="327" r="5" fill="#f1e05a"/>
 <text x="43.0" y="333" font-size="15" class="" font-weight="400" text-anchor="start">JavaScript</text>
-<text x="208.0" y="333" font-size="14" class="muted" font-weight="400" text-anchor="end">6.73%</text>
+<text x="208.0" y="333" font-size="14" class="muted" font-weight="400" text-anchor="end">6.71%</text>
 <circle cx="232.0" cy="327" r="5" fill="#3178c6"/>
 <text x="246.0" y="333" font-size="15" class="" font-weight="400" text-anchor="start">TypeScript</text>
-<text x="411.0" y="333" font-size="14" class="muted" font-weight="400" text-anchor="end">2.47%</text>
+<text x="411.0" y="333" font-size="14" class="muted" font-weight="400" text-anchor="end">2.46%</text>
 <circle cx="29.0" cy="356" r="5" fill="#8b949e"/>
 <text x="43.0" y="362" font-size="15" class="" font-weight="400" text-anchor="start">Other</text>
-<text x="208.0" y="362" font-size="14" class="muted" font-weight="400" text-anchor="end">3.40%</text>
+<text x="208.0" y="362" font-size="14" class="muted" font-weight="400" text-anchor="end">3.39%</text>
 <path d="M24 383H416" stroke="var(--line)"/>
 <text x="24" y="417" font-size="21" class="accent" font-weight="600" text-anchor="start">Contributions calendar</text>
-<text x="24" y="442" font-size="14" class="muted" font-weight="400" text-anchor="start">2025-11-23 → 2026-11-27</text>
+<text x="24" y="442" font-size="14" class="muted" font-weight="400" text-anchor="start">2025-11-23 → 2026-11-28</text>
 <text x="24" y="480" font-size="14" class="muted" font-weight="400" text-anchor="start">Current streak</text>
-<text x="24" y="507" font-size="22" class="" font-weight="600" text-anchor="start">0 days</text>
+<text x="24" y="507" font-size="22" class="" font-weight="600" text-anchor="start">1 days</text>
 <text x="235" y="480" font-size="14" class="muted" font-weight="400" text-anchor="start">Best in this period</text>
 <text x="235" y="507" font-size="22" class="" font-weight="600" text-anchor="start">38 days</text>
 <text x="24" y="548" font-size="14" class="muted" font-weight="400" text-anchor="start">Highest in one day</text>
 <text x="24" y="575" font-size="22" class="" font-weight="600" text-anchor="start">142</text>
 <text x="235" y="548" font-size="14" class="muted" font-weight="400" text-anchor="start">Average per day</text>
-<text x="235" y="575" font-size="22" class="" font-weight="600" text-anchor="start">5.37</text>
+<text x="235" y="575" font-size="22" class="" font-weight="600" text-anchor="start">5.39</text>
 <g><title>2025-11-23: 0 contributions</title>
 <path d="M69.0,643.36l5.28,2.64l-5.28,2.64l-5.28,-2.64Z" class="empty"/></g>
 <g><title>2025-11-24: 0 contributions</title>
@@ -1427,6 +1427,11 @@
 <path d="M339.0,808.0875860305022l5.28,2.64l-5.28,2.64l-5.28,-2.64Z" fill="#9be9a8"/></g>
 <g><title>2026-11-27: 0 contributions</title>
 <path d="M351.0,814.36l5.28,2.64l-5.28,2.64l-5.28,-2.64Z" class="empty"/></g>
+<g><title>2026-11-28: 10 contributions</title>
+<path d="M345.0,811.086591936183l5.28,-2.64v11.553408063816955l-5.28,2.64Z" fill="#9be9a8"/>
+<path d="M345.0,811.086591936183l-5.28,-2.64v11.553408063816955l5.28,2.64Z" fill="#9be9a8"/>
+<path d="M345.0,811.086591936183l-5.28,-2.64v11.553408063816955l5.28,2.64Z" fill="#000" opacity=".22"/>
+<path d="M345.0,805.806591936183l5.28,2.64l-5.28,2.64l-5.28,-2.64Z" fill="#9be9a8"/></g>
 <text x="24" y="862" font-size="12" class="muted" font-weight="400" text-anchor="start">Less</text>
 <rect x="58" y="852" width="12" height="12" rx="2" class="empty"/>
 <rect x="74" y="852" width="12" height="12" rx="2" fill="#9be9a8"/>
@@ -1436,5 +1441,5 @@
 <text x="145" y="862" font-size="12" class="muted" font-weight="400" text-anchor="start">More</text>
 <text x="416" y="862" font-size="11" class="muted" font-weight="400" text-anchor="end">Height follows daily contributions</text>
 <text x="24" y="900" font-size="13" class="muted" font-weight="400" text-anchor="start">Contributions include more than commits.</text>
-<text x="24" y="924" font-size="13" class="muted" font-weight="400" text-anchor="start">Snapshot · 2026-11-28</text>
+<text x="24" y="924" font-size="13" class="muted" font-weight="400" text-anchor="start">Snapshot · 2026-11-29</text>
 </svg>

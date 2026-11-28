@@ -1,11 +1,11 @@
 {
   "username": "kuxiaowo",
-  "updated_at": "2026-11-28T02:56:18+08:00",
+  "updated_at": "2026-11-29T01:30:56+08:00",
   "joined": "2025-09-03",
   "followers": 20,
   "public_repositories": 33,
   "nonfork_repositories": 20,
-  "total_stars": 232,
+  "total_stars": 233,
   "nonfork_repository_stars": {
     "2022-HiMCM": 4,
     "2026-IM2C": 1,
@@ -15,7 +15,7 @@
     "CAS-NoiseMap-Web": 9,
     "Codex-CAS-Web": 1,
     "IC2-Nuclear-Reactor-Optimizer": 6,
-    "KSA-Babel": 1,
+    "KSA-Babel": 2,
     "KSA-CHINESE": 2,
     "kuxiaowo": 0,
     "Local-Media-AI-Library": 6,
@@ -42,7 +42,7 @@
     "content-index": 0,
     "czkawka": 0,
     "IC2-Nuclear-Reactor-Optimizer": 6,
-    "KSA-Babel": 1,
+    "KSA-Babel": 2,
     "KSA-CHINESE": 2,
     "kuxiaowo": 0,
     "Local-Media-AI-Library": 6,
@@ -67,7 +67,7 @@
     "Python": 6732780,
     "HTML": 2916774,
     "TeX": 1789885,
-    "C#": 1009522,
+    "C#": 1048686,
     "JavaScript": 958989,
     "TypeScript": 351876,
     "CSS": 335932,
@@ -102,13 +102,13 @@
     "NSIS": "#8b949e"
   },
   "contributions": {
-    "total": 1988,
+    "total": 1998,
     "start": "2025-11-23",
-    "end": "2026-11-27",
-    "current_streak": 0,
+    "end": "2026-11-28",
+    "current_streak": 1,
     "longest_streak": 38,
     "highest_day": 142,
-    "average_day": 5.372972972972973,
+    "average_day": 5.38544474393531,
     "days": [
       {
         "date": "2025-11-23",
@@ -1959,6 +1959,11 @@
         "date": "2026-11-27",
         "level": 0,
         "count": 0
+      },
+      {
+        "date": "2026-11-28",
+        "level": 1,
+        "count": 10
       }
     ]
   },
